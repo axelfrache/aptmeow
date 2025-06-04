@@ -1,0 +1,10 @@
+mirror/dists/*/main/binary-*/Packages*
+mirror/dists/*/Release*
+mirror/dists/*/InRelease*
+mirror/dists/*/main/binary-*/by-hash/
+
+*.asc
+*.deb.gpg
+*.gpg.key
+
+*.deb.old

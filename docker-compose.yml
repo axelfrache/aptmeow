@@ -1,0 +1,8 @@
+services:
+  debian-repo:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/var/www/html
+    restart: unless-stopped
